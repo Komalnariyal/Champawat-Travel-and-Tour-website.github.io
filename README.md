@@ -12,5 +12,11 @@ Contribution are a good way to offer help to project maintainers and improve the
   <li>If you can modify the user interface to improve user experience on the website raise an issue  with the purposed changes.</li>
   <li>If you would like to add more functionality to the site raise an issue with the purposed changes.</li>
 </Ul>
+<h3 align="center">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/komal_nariyal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="komal_nariyal" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/komal-nariyal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="komal-nariyal" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/komalnariyal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="komalnariyal" height="30" width="40" /></a>
+</p>
 
 
