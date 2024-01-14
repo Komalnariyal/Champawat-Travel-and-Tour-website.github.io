@@ -1,0 +1,1199 @@
+  *{
+    margin:0;
+    padding:0;
+}
+.header{
+    height: 90vh;
+    background: linear-gradient(rgba(19, 177, 225, 0.7),rgba(210, 238, 133, 0.7)),url(image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+nav{
+    display: flex;
+    padding:20px 100px;
+    background-color: rgb(0,0,0,0.5);
+}
+nav img{
+    width:70px;
+    
+}
+
+nav ul{
+    text-align: right;
+    display: inline;
+    list-style-type:none;
+    flex:1;
+}
+nav ul li{
+    color:#000;
+    display:inline-block;
+    border: 500px;
+    margin-top:25px;
+    
+}
+nav ul li a{
+ font-family:'Roboto', sans-serif;
+ font-size: 20px;
+ text-decoration: none;
+ color:#fff;
+ padding:5px 30px;
+ transition:0.6s ease;
+ 
+}
+nav ul li a{
+    background-color:#f51120;
+    color:#f2f0f0;
+    border-radius: 500px;
+    border: 1px solid white;
+    transition: ease .40s;
+    
+}
+nav ul li a:hover{
+    background-color: rgb(7, 97, 161);
+    color:rgb(240, 242, 245);
+}
+
+.header1 nav .home{
+    color:rgb(5, 47, 71);
+    background-color: rgb(240, 243, 245);
+    border-radius: 100px;
+}
+.title{
+    margin:15% auto;
+    text-align:center;
+    font-family: sans-serif;
+}
+.title h1{
+    font-size:30px;
+    color:rgb(239, 251, 251);
+
+}
+.title h1:hover{
+    color:rgb(35, 33, 33);
+}
+.title h2{
+    font-size:50px;
+    color:rgb(20, 20, 20);
+
+}
+.title h2:hover{
+    color:rgb(231, 227, 227);
+}
+.title h3{
+    color:rgb(17, 16, 16);
+}
+.title h3:hover{
+    color:rgb(196, 222, 222);
+}
+.title h1,h3{
+    padding:5px;
+}
+
+.title .button{
+    text-decoration: none;
+    display:block;
+    width:140px;
+    height:35px;
+    margin:25px auto;
+    color:white;
+    line-height: 30px;
+    background-color: red;
+    border:1px solid white;
+    border-radius: 50px;
+}
+.button:hover{
+    background-color: white;
+    color:red;
+}
+.text marquee{
+    background-color: rgb(27, 79, 143);
+    color:rgb(240, 233, 233);
+    font-size: 30px;
+
+}
+.text h2{
+    font-size:50px;
+    line-height: 1.1;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+#package{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap:2rem;
+    align-items:center;
+    text-align:center;
+    margin-top:5rem;
+}
+
+
+.row-items{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap:2rem;
+    align-items:center;
+    text-align:center;
+    margin-top:5rem;
+}
+.container-box{
+    background: white;
+    border:1px solid #f0eded;
+    padding:50px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor:pointer;
+}
+.container-box a {
+    text-decoration: none;
+    display:block;
+    width:140px;
+    height:35px;
+    margin:25px auto;
+    color:white;
+    line-height: 30px;
+    background-color: rgb(18, 167, 174);
+    border:1px solid rgb(6, 6, 6);
+    border-radius: 50px;
+}
+.container-img img{
+    height: 85px;
+    width: 85px;
+    padding:15px;
+    background:white;
+    box-shadow: 5px 10px 30px rgba(85 85 85 / 20%);
+    border-radius:4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.container-box h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.container-box p{
+    font-size:15px;
+    color:red;
+
+}
+.container-box:hover{
+    box-shadow: 5px 30px 56.1276px rgba(55 55 55);
+    border:1px solid transparent;
+    transform: translateY(-3px);
+
+}
+.container-box2:hover{
+    box-shadow: 5px 30px 56.1276px rgba(55 55 55);
+    border:1px solid transparent;
+    transform: translateY(-3px);
+}
+.changecontent::after{
+    content:'';
+    color: rgb(10, 45, 80);
+    text-shadow:0px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Baleshwar Temple";}
+    10%{content: "Mini Nainital";}
+    20%{content: "Tea garden";}
+    30%{content: "Golju Temple";}
+    40%{content: "Koli Jheel";}
+    50%{content: "Sapteshwar Waterfall";}
+    60%{content: "Nagnath Temple";}
+    70%{content: "Mayawati Ashram";}
+    80%{content: "Abbott Mount";}
+    90%{content: "Maa Bharahi Temple";}
+    100%{content: "Reetha sahib";}
+    
+}
+.container-box2{
+    background: white;
+    border:1px solid #f0eded;
+    padding:50px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor:pointer;
+}
+.container-box2 a {
+    text-decoration: none;
+    display:block;
+    width:140px;
+    height:35px;
+    margin:25px auto;
+    color:white;
+    line-height: 30px;
+
+}
+.title2 img{
+    height: 85px;
+    width: 85px;
+    padding:15px;
+    background:white;
+    box-shadow: 5px 10px 30px rgba(85 85 85 / 20%);
+    border-radius:4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.container-box2 h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.container-box2 p{
+    font-size:15px;
+    color:rgb(20, 143, 167);
+    text-align:end;
+}
+.container-box2 p:hover{
+    color:red;
+}
+
+.text2 h1{
+    font-size:50px;
+    line-height: 1.1;
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(46, 31, 164);
+}
+.changecontent1::after{
+    content:'';
+    color: rgb(6, 96, 21);
+    text-shadow:0px 1px rgb(23, 175, 127);
+    animation: changetext1 10s infinite linear;
+}
+@keyframes changetext1{
+    0%{content: "Aboot Mount";}
+    10%{content: "Mini Nainital";}
+    20%{content: "Tea garden";}
+    30%{content: "Banasur ka Kila";}
+    40%{content: "Koli Jheel";}
+    50%{content: "Sapteshwar Waterfall";}
+    60%{content: "Lohaghat";}
+    70%{content: "Shyamala Tal";}
+    80%{content: "Mini Nainital ";}
+    90%{content: "Tea garden";}
+    100%{content: "lohaghat";}
+    
+}
+.changecontent2::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changetext2 10s infinite linear;
+}
+@keyframes changetext2{
+    0%{content: "Baleshwar Temple";}
+    10%{content: "Poornagri temple";}
+    20%{content: "Siddhathal temple";}
+    30%{content: "Golju Temple";}
+    40%{content: "Maa Barahi Temple";}
+    50%{content: "Hingladevi Temple";}
+    60%{content: "Nagnath Temple";}
+    70%{content: "Mayawati Ashram";}
+    80%{content: "Baleshwar Temple";}
+    90%{content: "Maa Bharahi Temple";}
+    100%{content: "Reetha sahib";}
+    
+}
+/*about*/
+.about{
+    background: linear-gradient(rgba(236, 240, 236, 0.7),rgba(247, 250, 242, 0.7)),url(baleshwar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.about h1{
+    font-size: 50px;
+    color:rgb(7, 7, 64);
+    margin-top:20px;
+    padding-top: 50px;
+    margin-left:15px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.about h2{
+    color:rgb(8, 8, 70);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.about p{
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:15px;
+    margin-right:15px;
+    font-size: 20px;
+  }
+  .about img{
+    margin-left: 15px;
+    width:300px;
+    box-sizing: border-box;
+    border: 5px solid rgb(2, 2, 2);
+  }
+.komalnariyal .about1{
+    margin: 10px;
+    text-align: center;
+    border:10px solid rgb(192, 210, 225);
+
+  }
+  .komalnariyal{
+    background: linear-gradient(rgba(238, 237, 237, 0.7),rgba(235, 236, 230, 0.7)),url(climate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+  .changepicture::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim 25s infinite linear;
+}
+@keyframes changeim{
+    0%{content: url(shiva.jpg);}
+    10%{content: url(shiva1.jpg);}
+    20%{content: url(shiva3.jpg);}
+    30%{content: url(shiva.jpg);}
+    40%{content: url(shiva1.jpg);}
+    50%{content: url(shiva3.jpg);}
+    60%{content: url(shiva.jpg);}
+    70%{content: url(shiva1.jpg);}
+    80%{content: url(shiva.jpg);}
+    90%{content: url(shiva3.jpg);}
+    100%{content: url(shiva1.jpg);}
+    
+}
+.changepicture1::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim1 25s infinite linear;
+}
+@keyframes changeim1{
+    0%{content: url(blue.jpg);}
+    10%{content: url(blue1.jpg);}
+    20%{content: url(blue3.jpg);}
+    30%{content: url(blue.jpg);}
+    40%{content: url(blue1.jpg);}
+    50%{content: url(blue3.jpg);}
+    60%{content: url(blue.jpg);}
+    70%{content: url(blue1.jpg);}
+    80%{content: url(blue3.jpg);}
+    90%{content: url(blue.jpg);}
+    100%{content: url(blue1.jpg);}
+    
+}
+.changepicture2::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim2 25s infinite linear;
+}
+@keyframes changeim2{
+    0%{content: url(tiwari.jpg);}
+    10%{content: url(tiwari1.jpg);}
+    20%{content: url(tiwari2.jpg);}
+    30%{content: url(tiwari.jpg);}
+    40%{content: url(tiwari1.jpg);}
+    50%{content: url(tiwari2.jpg);}
+    60%{content: url(tiwari.jpg);}
+    70%{content: url(tiwari1.jpg);}
+    80%{content: url(tiwari2.jpg);}
+    90%{content: url(tiwari.jpg);}
+    100%{content: url(tiwari1.jpg);}
+    
+}
+.changepicture3::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px #18a32d;
+    animation: changeim3 25s infinite linear;
+}
+@keyframes changeim3{
+    0%{content: url(sea.jpg);}
+    10%{content: url(sea1.jpg);}
+    20%{content: url(sea2.jpg);}
+    30%{content: url(sea.jpg);}
+    40%{content: url(sea1.jpg);}
+    50%{content: url(sea2.jpg);}
+    60%{content: url(sea.jpg);}
+    70%{content: url(sea1.jpg);}
+    80%{content: url(sea2.jpg);}
+    90%{content: url(sea.jpg);}
+    100%{content: url(sea1.jpg);}
+    
+}
+.changepicture4::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim4 25s infinite linear;
+}
+@keyframes changeim4{
+    0%{content: url(abb.jpg);}
+    10%{content: url(abb2.jpg);}
+    20%{content: url(abb3.jpg);}
+    30%{content: url(abb.jpg);}
+    40%{content: url(abb2.jpg);}
+    50%{content: url(abb3.jpg);}
+    60%{content: url(abb.jpg);}
+    70%{content: url(abb2.jpg);}
+    80%{content: url(abb3.jpg);}
+    90%{content: url(abb.jpg);}
+    100%{content: url(abb1.jpg);}
+    
+}
+.changepicture5::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim5 25s infinite linear;
+}
+@keyframes changeim5{
+    0%{content: url(tej.jpg);}
+    10%{content: url(tej1.jpg);}
+    20%{content: url(tej2.jpg);}
+    30%{content: url(tej.jpg);}
+    40%{content: url(tej1.jpg);}
+    50%{content: url(tej2.jpg);}
+    60%{content: url(tej.jpg);}
+    70%{content: url(tej1.jpg);}
+    80%{content: url(tej2.jpg);}
+    90%{content: url(tej.jpg);}
+    100%{content: url(tej1.jpg);}
+    
+}
+.changepicture6::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim6 25s infinite linear;
+}
+@keyframes changeim6{
+    0%{content: url(ro.jpg);}
+    10%{content: url(ro1.jpg);}
+    20%{content: url(ro2.jpg);}
+    30%{content: url(ro.jpg);}
+    40%{content: url(ro1.jpg);}
+    50%{content: url(ro2.jpg);}
+    60%{content: url(ro.jpg);}
+    70%{content: url(ro1.jpg);}
+    80%{content: url(ro2.jpg);}
+    90%{content: url(ro.jpg);}
+    100%{content: url(ro1.jpg);}
+    
+}
+.changepicture7::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim7 25s infinite linear;
+}
+@keyframes changeim7{
+    0%{content: url(to.jpg);}
+    10%{content: url(to1.jpg);}
+    20%{content: url(to2.jpg);}
+    30%{content: url(to.jpg);}
+    40%{content: url(to1.jpg);}
+    50%{content: url(to2.jpg);}
+    60%{content: url(to.jpg);}
+    70%{content: url(to1.jpg);}
+    80%{content: url(to2.jpg);}
+    90%{content: url(to.jpg);}
+    100%{content: url(to1.jpg);}
+    
+}
+.changepicture8::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim8 25s infinite linear;
+}
+@keyframes changeim8{
+    0%{content: url(ba.jpg);}
+    10%{content: url(ba1.jpg);}
+    20%{content: url(ba2.jpg);}
+    30%{content: url(ba.jpg);}
+    40%{content: url(ba1.jpg);}
+    50%{content: url(ba2.jpg);}
+    60%{content: url(ba.jpg);}
+    70%{content: url(ba1.jpg);}
+    80%{content: url(ba2.jpg);}
+    90%{content: url(ba.jpg);}
+    100%{content: url(ba1.jpg);}
+    
+}
+.changepicture9::after{
+    content:'';
+    color: rgb(8, 145, 75);
+    text-shadow:0px 1px rgb(24, 163, 45);
+    animation: changeim9 25s infinite linear;
+}
+@keyframes changeim9{
+    0%{content: url(gr.jpg);}
+    10%{content: url(gr1.jpg);}
+    20%{content: url(gr2.jpg);}
+    30%{content: url(gr.jpg);}
+    40%{content: url(gr1.jpg);}
+    50%{content: url(gr2.jpg);}
+    60%{content: url(gr.jpg);}
+    70%{content: url(gr1.jpg);}
+    80%{content: url(gr2.jpg);}
+    90%{content: url(gr.jpg) ;}
+    100%{content: url(gr1.jpg);}
+    
+}
+.hotel-text{
+    margin-top: 40px;
+    font-size: 30px;
+    color:rgb(236, 238, 236);
+    background-color:rgb(6, 62, 14);
+    text-align: center;
+
+}
+.hotel-text:hover{
+    color:rgb(6, 60, 6);
+    background-color:white;
+
+}
+.about1{
+    padding-bottom: 40px;
+}
+
+.about1 a{
+ color:red;
+  }
+.about1 h1{
+ font-size:40px;
+ padding-top: 40px;
+ padding-bottom: 40px;
+  }
+.about1 img{
+ padding-top: 30px;
+ padding-bottom: 30px;
+ box-sizing: border-box;
+ border: 4px black;
+  
+  }
+#contact{
+    background: rgb(60, 93, 142);
+}
+.main{
+    display:flex;
+    flex-wrap:wrap;
+}
+.footer{
+    padding: 20px 0;
+}
+.list{
+    width:25%;
+
+}
+.list h4{
+    font-size: 21px;
+    color:white;
+    margin-bottom:30px;
+    position: relative;
+    list-style-type:none;
+}
+.list h4::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width:2px;
+    left:0;
+    bottom:-10px;
+    background:white;
+
+}
+.list ul li:not(:last-child){
+    margin-bottom:16px;
+
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li a{
+    border-style: none;
+    color:#fbfbfb;
+    font-size:20px;
+    display:block;
+    transition:.3s;
+    text-decoration: none;
+
+}
+.list ul li a:hover{
+    color:rgb(243, 242, 241);
+    transform: translate(30px);
+}
+.social img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    border-radius: 15px;
+    transition: .3s;
+    background-color: white;
+}
+.list .social a:hover{
+    transform: scale(1.1);
+}
+.end-text{
+    text-align: center;
+    padding-top:90px;
+    color:white;
+}
+.end-text p{
+    color:white;
+    font-size: 14px;
+    letter-spacing:2px;
+}
+
+/*explore and home page*/
+.header1{
+    height:90vh;
+    background: linear-gradient(rgba(42, 42, 42, 0.7),rgba(0,0,0,0.7)),url(image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;    
+}
+.header1 nav{
+    display:flex;
+    padding:20px 100px;
+    background-color: rgb(0,0,0,0.5);
+
+}
+.header1 nav img{
+    width:50px;
+
+}
+
+.header1 nav ul{
+    text-align: right;
+    display: inline;
+    list-style-type:none;
+    flex:1; 
+}
+.header1 ul li{
+
+    color:#000;
+    display:inline-block;
+    border: 500px;
+    margin-top:25px;
+    
+}
+.header1 nav ul li a{
+ font-size: 20px;
+ text-decoration: none;
+ color:#fff;
+ padding:5px 20px;
+ transition:0.6s ease;
+ background-color: rgb(235, 33, 33);
+ border-radius: 500px;
+ 
+}
+.header1 nav ul li a:hover{
+    background-color:#fff;
+    color:#000;
+}
+.title1{
+    margin:15% auto;
+    text-align:center;
+}
+.title1 h1{
+    font-size:50px;
+
+}
+.title1 h1:hover{
+    color:rgb(139, 251, 163);
+}
+.title1 h2{
+    font-size:40px;
+    color:rgb(22, 102, 115)
+
+}
+.title1 h2:hover{
+    color:rgb(234, 120, 120);
+}
+.title1 h3:hover{
+    color:rgb(197, 203, 78);
+}
+.title1 .button{
+    text-decoration: none;
+    display:block;
+    width:140px;
+    height:35px;
+    margin:25px auto;
+    color:white;
+    line-height: 35px;
+    background-color: red;
+    border:1px solid white;
+    border-radius: 500px;
+}
+.button:hover{
+    background-color: white;
+    color:red;
+}
+/*nav*/
+.header2 nav{
+    display:flex;
+    padding:20px 100px;
+    background-color: rgb(0,0,0,0.5);
+
+}
+.header2 nav img{
+    width:50px;
+
+}
+
+.header2 nav ul{
+    text-align: right;
+    display: inline;
+    list-style-type:none;
+    flex:1; 
+}
+.header2 ul li{
+
+    color:#000;
+    display:inline-block;
+    border: 500px;
+    margin-top:25px;
+    
+}
+.header2 nav ul li a{
+ font-size: 20px;
+ text-decoration: none;
+ color:#fff;
+ padding:5px 20px;
+ transition:0.6s ease;
+ background-color: rgb(235, 33, 33);
+ border-radius: 500px;
+ 
+}
+.header2 nav ul li a:hover{
+    background-color:#fff;
+    color:#000;
+}
+/*hotel*/
+.tab{
+  border: 1px solid black;
+  height: 500px;
+  width: 300px;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  text-align: center;
+  align-items: center;
+}
+.tab th,td{
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+
+}
+.inner h1{
+    color:rgb(5, 5, 124);
+    font-size: 40px;
+    padding-left: 40px;
+}
+.all-hotels{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap:2rem;
+    align-items:center;
+    text-align:center;
+    margin-top:5rem;
+}
+.hotels-container{
+    background: white;
+    border:1px solid #f0eded;
+    padding:40px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor:pointer;
+}
+.hotels-container a {
+    text-decoration: none;
+    display:block;
+    width:140px;
+    height:35px;
+    margin:25px auto;
+    color:white;
+    line-height: 30px;
+    background-color: rgb(18, 167, 174);
+    border:1px solid rgb(6, 6, 6);
+    border-radius: 50px;
+}
+.hotel-img img{
+    height: 85px;
+    width: 70px;
+    padding:15px;
+    background:white;
+    box-shadow: 5px 10px 30px rgba(85 85 85 / 20%);
+    border-radius:4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.hotels-container h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.hotels-container p{
+    font-size:15px;
+    color:red;
+
+}
+.hotels-container:hover{
+    box-shadow: 5px 30px 56.1276px rgba(55 55 55);
+    border:1px solid transparent;
+    transform: translateY(-3px);
+
+}
+/*baleshwar.html*/
+/*about*/
+.baleshwar{
+    background: linear-gradient(rgba(236, 240, 236, 0.7),rgba(247, 250, 242, 0.7)),url(baleshwar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.baleshwar li{
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+    list-style-type:none;
+}
+.baleshwar h1{
+    font-size: 50px;
+    color:rgb(7, 7, 64);
+    margin-top:20px;
+    padding-top: 50px;
+    margin-left:15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.baleshwar h2{
+    color:rgb(8, 8, 70);
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
+.baleshwar p{
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:15px;
+    margin-right:15px;
+    font-size: 20px;
+  }
+ .temple-image img{
+    box-sizing: border-box;
+    border: 1px solid rgb(22, 22, 22);
+    display:block;
+    height:50%;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+ }
+.baleshwar a{
+    text-decoration: none;
+    display:block;
+    width:140px;
+    height:35px;
+    margin:25px auto;
+    color:white;
+    line-height: 30px;
+    background-color: red;
+    border:1px solid white;
+    border-radius: 50px;
+    text-align: center;
+    
+  }
+  .heading h2{
+    background-color: rgb(65, 65, 145);
+    color:white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 30px;
+  }
+  
+.all-temples h1{
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: rgb(28, 18, 37);
+    text-align: center;
+
+}
+.all-temples p{
+    font-size: 20px;
+    text-align: center;
+}
+.all-temples img{
+        box-sizing: border-box;
+        border: 1px solid rgb(22, 22, 22);
+        display:block;
+        height:50%;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+}
+.all-temples{
+    background: linear-gradient(rgba(236, 240, 236, 0.7),rgba(247, 250, 242, 0.7)),url(climate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*shiva html*/
+.title3{
+    text-align: center;
+
+}
+.title3 h1{
+    color: rgb(23, 23, 131);
+    font-size: 60px;
+}
+.whole{
+    background: linear-gradient(rgba(236, 240, 236, 0.7),rgba(247, 250, 242, 0.7)),url(climate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.package-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.thumb{
+    position: relative;
+    transition: all .3s cublic-bezier(.445,.05,.5s,.9s);
+    will-change:auto;
+    cursor: pointer;
+}
+.thumb img{
+    width: 50%;
+    height: 50%;
+}
+.thum h3{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+    color:blue;
+    top:36px;
+    right:40px;
+}
+.dest-content{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*review*/
+.review .review-slider
+{
+    border: 1px solid black;
+    padding:1rem;
+
+}
+.review .review-slider .box
+{
+    border: 0px solid red;
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset:-1rem;
+    outline: black;
+    box-shadow:#18a32d;
+    transition: .2s linear;
+}
+.review .review-slider .box:hover{
+    box-shadow: 1px 1px 10px 4px blue;
+}
+.review .review-slider .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius:50%;
+}
+.review .review-slider .box p{
+    padding:1rem 0;
+    line-height: 1.8;
+    color:lightseagreen;
+    font-size: 1.5rem;
+}
+.review .review-slider .box h3{
+    padding:.5rem;
+    color:black;
+    font-size: 2.2rem;
+}
+.review .review-slider .box .stars{
+    color:orange;
+    font-size: 1.7rem;
+}
+/*testimonials*/
+.testimonials{
+    padding:40px 0;
+    background: rgb(212, 207, 197);
+    color:#434343;
+    text-align:center;
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding:0 20px;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+    align-items: center;
+}
+.testimonial{
+    background:white;
+    padding:40px;
+    align-items: center;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform:uppercase;
+    margin: 20px 0;
+}
+.stars{
+    color:rgb(255, 221, 0);
+    margin-bottom: 20px;
+}
+    
+    @media  screen and (max-width: 960px) {
+    .col{
+        flex:100%;
+        max-width:800%;
+}
+    }
+     
+    @media  screen and (max-width: 600px) {
+        .col{
+            flex:100%;
+            max-width:100%;
+    }
+        }
+        /*html*/
+        @media  screen and (max-width: 200px) {
+            *{
+                flex:100%;
+                max-width:100%;
+        }
+    }
+
+           
+
+
+
+            /*list*/
+                @media(max-width: 575px) {
+                    .list{
+    
+                    width:100%;
+                }
+            }
+                  
+
+       *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+           
+            .conta{
+                width:700px;
+                height:auto;
+                background: rgb(28, 122, 30);
+                padding:50px 10px;
+                border-radius: 10px;
+                transition: all 1s ease 0s;
+                cursor:pointer;
+                position:absolute;
+                align-items: center;
+                
+            }
+
+.shiva{
+    background: linear-gradient(rgba(236, 240, 236, 0.7),rgba(247, 250, 242, 0.7)),url(climate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shiva h1 , .shiva h2{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(15, 15, 47);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.shiva img{
+    height: 500px;
+    width: 500px;
+    padding:15px;
+    background:white;
+    box-shadow: 5px 10px 30px rgba(85 85 85 / 20%);
+    border-radius:4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.shiva h6, .shiva ul li, .shiva h4 ,.shiva p{
+
+    font-size: 30px;
+    text-align: center;
+    color: rgb(15, 15, 47);
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.shiva marquee{
+    background-color: rgb(13, 13, 38);
+    color:#fff;
+}
+.shiva a{
+    border: 1px solid black;
+    text-decoration: none;
+    display:block;
+    width:160px;
+    height:35px;
+    margin:25px auto;
+    
+    color:white;
+    line-height: 30px;
+    background-color: red;
+    border:1px solid white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+ 
+
+

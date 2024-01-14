@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact form</title>
+<link href="style2.css" rel="stylesheet">
+<script src="my_js.js"></script>
+</head>
+<div class="header2">
+    <nav> 
+    <img src="logo.jpg">   
+  <ul>
+    <li><a class="home" href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="places.html">Places</a></li>
+    <li><a href="hotel.html">Hotels</a></li>
+    <li><a href="index.php">Book Hotel</a></li>
+    <li><a href="contact.html">Contact us</a></li>  
+  </ul>
+  </nav>
+  </div>
+<!-- Body Starts Here -->
+<body id="body" style="overflow:hidden;">
+<div id="abc">
+<!-- Popup Div Starts Here -->
+<div id="popupContact">
+<!-- Contact Us Form -->
+<form action="index.html" id="form" method="post" name="form">
+<img id="close" src="cug.png" onclick ="div_hide()">
+<h2>Contact Us</h2>
+<hr>
+<input id="name" name="name" placeholder="Name" type="text">
+<input id="email" name="email" placeholder="Email" type="text">
+<textarea id="msg" name="message" placeholder="Message"></textarea>
+<a href="javascript:%20check_empty()" id="submit">Send</a>
+</form>
+</div>
+<!-- Popup Div Ends Here -->
+</div>
+<!-- Display Popup Button -->
+</ul>
+<div class="list1">
+    <h4>Quick Links</h4>
+    <ul>
+        <li><a href="#">About US</a></li>
+        <li><a href="#">Terms & Condition</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Tour</a></li>
+
+    </ul>
+</div>
+
+<div class="list1">
+    <h4>Contact Info</h4>
+    <ul>
+        <li><a href="#">laluwapani Road Champawat</a></li>
+        <li><a href="#">Champawat, 262523</a></li>
+        <li><a href="#">+91 7017950658</a></li>
+        <li><a href="#">komalnariyal@gmail.com</a></li>
+        <li><a href="#">+91 7017950658</a></li>
+    </ul>
+</div>
+<button id="popup" onclick="div_show()">Click here...</button>
+</body>
+<!-- Body Ends Here -->
+<div class="list1">
+    <h4>Connect</h4>
+    <div class="social">
+    <img src="instagram-logo-24.png">
+    <img src="facebook-circle-logo-24.png">
+    <img src="linkedin-logo-24.png">
+    <img src="youtube-logo-24.png">
+    <img src="twitter-logo-24.png">
+    </div>
+    </div>   
+</div>
+<style>  
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+-
+-----------------------------------------------*/
+*{
+    margin:0;
+    padding:0;
+  
+}
+body{
+    background: linear-gradient(rgba(19, 177, 225, 0.7),rgba(210, 238, 133, 0.7)),url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding:20px 100px;
+    background-color: rgb(0,0,0,0.5);
+}
+nav img{
+    width:70px;
+    
+}
+
+nav ul{
+    text-align: right;
+    display: inline;
+    list-style-type:none;
+    flex:1;
+}
+nav ul li{
+    color:#000;
+    display:inline-block;
+    border: 500px;
+    margin-top:25px;
+    
+}
+nav ul li a{
+ font-family:'Roboto', sans-serif;
+ font-size: 20px;
+ text-decoration: none;
+ color:#fff;
+ padding:5px 30px;
+ transition:0.6s ease;
+ 
+}
+nav ul li a{
+    background-color:#c6474f;
+    color:#f2f0f0;
+    border-radius: 500px;
+    border: 1px solid white;
+    transition: ease .40s;
+    
+}
+nav ul li a:hover{
+    background-color: rgb(7, 97, 161);
+    color:rgb(240, 242, 245);
+}
+
+.header1 nav .home{
+    color:rgb(5, 47, 71);
+    background-color: rgb(240, 243, 245);
+    border-radius: 100px;
+}
+
+#contact{
+    background: rgb(60, 93, 142);
+}
+.main{
+    display:flex;
+    flex-wrap:wrap;
+}
+.footer{
+    padding: 20px 0;
+}
+.list{
+    width:25%;
+
+}
+.list h4{
+    font-size: 21px;
+    color:white;
+    margin-bottom:30px;
+    position: relative;
+    list-style-type:none;
+}
+.list h4::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width:2px;
+    left:0;
+    bottom:-10px;
+    background:white;
+
+}
+.list ul li:not(:last-child){
+    margin-bottom:16px;
+
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li a{
+    border-style: none;
+    color:#fbfbfb;
+    font-size:20px;
+    display:block;
+    transition:.3s;
+    text-decoration: none;
+
+}
+.list ul li a:hover{
+    color:rgb(243, 242, 241);
+    transform: translate(30px);
+}
+.social img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    border-radius: 15px;
+    transition: .3s;
+    background-color: white;
+}
+.list .social a:hover{
+    transform: scale(1.1);
+}
+.end-text{
+    text-align: center;
+    padding-top:90px;
+    color:white;
+}
+.end-text p{
+    color:white;
+    font-size: 14px;
+    letter-spacing:2px;
+}
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+img#close {
+position:absolute;
+right:-1px;
+top:-1px;
+cursor:pointer;
+height: 10px 10px;
+}
+div#popupContact {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif
+}
+form {
+max-width:300px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+p {
+margin-top:30px
+}
+h2 {
+background-color:#FEFFED;
+padding:20px 35px;
+margin:-10px -50px;
+text-align:center;
+border-radius:10px 10px 0 0
+}
+hr {
+margin:10px -50px;
+border:0;
+border-top:1px solid #ccc
+}
+input[type=text] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway
+}
+#name {
+background-color: #ccc;
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#email {
+ background-color: #ccc;
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+textarea {
+ background-color: #ccc;;
+background-repeat:no-repeat;
+background-position:5px 7px;
+width:82%;
+height:95px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+margin-bottom:30px
+}
+#submit {
+text-decoration:none;
+width:100%;
+text-align:center;
+display:block;
+background-color:#FFBC00;
+color:#fff;
+border:1px solid #FFCB00;
+padding:10px 0;
+font-size:20px;
+cursor:pointer;
+border-radius:5px
+}
+span {
+color:red;
+font-weight:700
+}
+button {
+width:10%;
+height:45px;
+border-radius:3px;
+background-color:#cd3f3f;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:18px;
+cursor:pointer;
+margin-left:45%;
+}
+h1 {
+padding-top:40px;
+padding-top:40px;
+text-align: center;
+font-size:50px;
+color:rgb(25, 25, 36);
+}   
+ul li{
+    text-align: center;
+}   
+.list1{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size: 20px;
+
+
+}  
+</style>
+</html>
